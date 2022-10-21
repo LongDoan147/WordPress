@@ -80,6 +80,7 @@ get_header();
 
 		$i = 0;
 
+		
 		while ( have_posts() ) {
 			$i++;
 			if ( $i > 1 ) {
