@@ -23,7 +23,7 @@
 <!-- Footer -->
 <section id="footer">
 	<div class="container">
-		<!-- <div class="row text-center text-xs-center text-sm-left text-md-left">
+		<div class="row text-center text-xs-center text-sm-left text-md-left">
 			<div class="col-xs-12 col-sm-4 col-md-6">
 				<h2 class="about">About This Site</h2>
 				<p>This may be a good place to introduce yourself and your site or include some credits.</p>
@@ -41,7 +41,7 @@
 					<p>Saturday & Sunday: 11:00AM–3:00PM</p>
 				</div>
 			</div>
-		</div> -->
+		</div>
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
 				<ul class="list-unstyled list-inline social text-center">
