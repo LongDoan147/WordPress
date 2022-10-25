@@ -18,7 +18,7 @@
 /** The default template for displaying content ... */
 
 $class = '';
-if(!is_single()){
+if (!is_single()) {
 	$class = 'danh-sach';
 }
 ?>

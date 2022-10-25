@@ -17,6 +17,8 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="module2.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -179,18 +181,6 @@
 								</button><!-- .search-toggle -->
 
 							</div>
-
-							<!-- <li class="dropdown">
-								<div class="dropdown-toggle" >
-									<i class="fa fa-user-circle-o"></i>
-									<span class="account">Account </span>
-								</div>
-								<ul class="drop-menu">
-									<li><a href="#">Đăng nhập</a></li>
-									<li><a href="#">Đăng Ký</a></li>
-									<li><a href="#">Thoát</a></li>
-								</ul>
-							</li> -->
 							<div class="dropdown">
 								<i class="drop-icon fa fa-user-circle-o"></i>
 								<button class="btn-account btn dropdown-toggle" type="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
