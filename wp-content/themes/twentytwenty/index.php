@@ -84,13 +84,7 @@ get_header();
 
 		
 		while ( have_posts() ) {
-			// $i++;
-			// if ( $i > 1 ) {
-			// 	echo '<hr class="post-separator styled-separator is-style-wide section-inner" aria-hidden="true" />';
-			// }
-			// the_post();
-
-			// get_template_part( 'template-parts/content', get_post_type() );
+			
 			if (have_posts()) {
 				the_post();
 				// lấy bài viết.
@@ -140,6 +134,9 @@ get_header();
 									<h4>
 										<a href='$_new_string_guid'>$_new_string_title</a>
 									</h4>
+									<div class='img-wrapper'>
+											$_new_string_image
+										</div>
 									$_new_string_content <a href='$_new_string_guid'>[...]</a>
 								</div>
 		
@@ -154,7 +151,7 @@ get_header();
 	} elseif ( is_search() ) {
 		?>
 
-		<div class="no-search-results-form section-inner thin">
+		<div class="no-search-results-form section-inner thin search-wap">
 
 			<?php
 			get_search_form(
