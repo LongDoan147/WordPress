@@ -30,6 +30,12 @@ if ( is_singular() ) {
 		$show_categories = apply_filters( 'twentytwenty_show_categories_in_entry_header', true );
 
 		if ( true === $show_categories && has_category() ) {
+			$post_meta = apply_filters(
+				'twentytwenty_post_meta_location_single_bottom',
+				array(
+					'tags',
+				)
+			);
 			?>
 
 			<div class="entry-categories">
@@ -38,7 +44,6 @@ if ( is_singular() ) {
 					<?php the_category( ' ' ); ?>
 				</div><!-- .entry-categories-inner -->
 			</div><!-- .entry-categories -->
-
 			<?php
 		}
 
