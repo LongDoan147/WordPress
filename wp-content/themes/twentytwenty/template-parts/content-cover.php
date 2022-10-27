@@ -49,7 +49,7 @@
 			<div class="cover-header-inner">
 				<div class="cover-color-overlay color-accent<?php echo esc_attr( $color_overlay_classes ); ?>"<?php echo $color_overlay_style; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- We need to double check this, but for now, we want to pass PHPCS ;) ?>></div>
 
-					<header class="entry-header has-text-align-center sadasdads">
+					<header class="entry-header has-text-align-center">
 						<div class="entry-header-inner section-inner medium">
 
 							<?php

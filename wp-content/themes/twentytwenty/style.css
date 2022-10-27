@@ -6873,7 +6873,7 @@ section .section-title {
 	position: absolute;
 	left: 15px;
 	font-size: 3rem;
-	top: calc(100% - 45%);
+	top: calc(100% - 38%);
 }
 
 .search-form .search-field {
@@ -6889,4 +6889,55 @@ section .section-title {
 .search-modal-inner {
 	background: #fff;
 	padding-bottom: 40px;
+}
+
+/* Details */
+.section-inner.medium {
+    max-width: 111rem !important;
+}
+h1.entry-title {
+    margin: 0;
+    font-size: 4rem;
+}
+.overviewLine {
+    border-bottom: 1px solid #cecece;
+    margin: 25px 0 15px;
+    position: relative;
+	margin-top: 60px;
+}
+.overviewLine::before {
+    content: "";
+    position: absolute;
+    top: 0;
+	left: 127px;
+    border-width: 12px 12px 0;
+    border-style: solid;
+    border-color: #b9b9b9 transparent;
+    display: block;
+    width: 0;
+}
+.overviewLine::after {
+    content: "";
+    position: absolute;
+    top: 0;
+	left: 127px;
+    border-width: 11px 11px 0;
+    border-style: solid;
+    border-color: #f5f5f5 transparent;
+    display: block;
+    width: 0;
+} 
+#site-content,
+.singular .entry-header {
+    background-image: url('./assets/images/bg_pattern.png');
+	padding-bottom: 0;
+	padding: 70px 0;
+}
+.post-inner {
+    padding: 0;
+}
+.entry-content p{
+	max-width: 85rem !important;
+	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
 }
