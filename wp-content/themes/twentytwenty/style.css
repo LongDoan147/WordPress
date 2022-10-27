@@ -6507,8 +6507,6 @@ a.to-the-top>* {
 	}
 }
 
-/* Footer */
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 section {
 	padding: 60px 0;
@@ -6628,6 +6626,41 @@ section .section-title {
 
 #footer .hours p {
 	margin: 0;
+}
+
+.footer-top-visible .footer-nav-widgets-wrapper{
+	background-color: #007b5e;
+}
+
+.widget .widget-title {
+   padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+
+.wp-block-latest-posts.wp-block-latest-posts__list li {
+    clear: both;
+    padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+.wp-block-latest-posts.wp-block-latest-posts__list li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+	
+}
+
+.footer-widgets a{
+	color: #ffffff !important;
+}
+.footer-widgets a:hover{
+	text-decoration:none !important;
+	color: #ffffff;
 }
 
 /* Header */
@@ -6810,6 +6843,7 @@ section .section-title {
 	padding: 15px;
 	font-size: 2rem;
 }
+
 
 /* From Search */
 .section-inner.search-wap {

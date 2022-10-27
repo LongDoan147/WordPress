@@ -17,33 +17,13 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" href="./style.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
 <!------ Include the above in your HEAD tag ---------->
 
 <!-- Footer -->
 <section id="footer">
 	<div class="container">
-		<div class="row text-center text-xs-center text-sm-left text-md-left">
-			<div class="col-xs-12 col-sm-4 col-md-6">
-				<h2 class="about">About This Site</h2>
-				<p>This may be a good place to introduce yourself and your site or include some credits.</p>
-			</div>
-			<div class="col-xs-12 col-sm-4 col-md-6">
-				<h2 class="about">Find Us</h2>
-				<div class="address">
-					<strong>Address</strong>
-					<p>123 Main Street</p>
-					<p>New York, NY 10001</p>
-				</div>
-				<div class="hours">
-					<strong>Hours</strong>
-					<p>Monday–Friday: 9:00AM–5:00PM</p>
-					<p>Saturday & Sunday: 11:00AM–3:00PM</p>
-				</div>
-			</div>
-		</div>
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
 				<ul class="list-unstyled list-inline social text-center">
