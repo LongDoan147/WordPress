@@ -6630,6 +6630,7 @@ section .section-title {
 
 .footer-top-visible .footer-nav-widgets-wrapper{
 	background-color: #007b5e;
+	margin: 0;
 }
 
 .widget .widget-title {
@@ -6927,6 +6928,7 @@ h1.entry-title {
     display: block;
     width: 0;
 } 
+
 #site-content,
 .singular .entry-header {
     background-image: url('./assets/images/bg_pattern.png');
@@ -6937,7 +6939,47 @@ h1.entry-title {
     padding: 0;
 }
 .entry-content p{
-	max-width: 85rem !important;
+	max-width: 111rem !important;
 	text-align: justify;
 	font-family: 'Open Sans', sans-serif;
 }
+.meta-text{
+	position: relative;
+	    left: 100rem;
+    bottom: 138px;
+
+}
+.meta-text a:hover{
+	text-decoration:none;
+	cursor: pointer;
+}
+
+.headlinesdate{
+	position: relative;
+	display: flex;
+	font-size: 2rem;
+	background: #f5ce31;
+padding: 20px 30px;
+      max-width: 111px;
+	border-radius: 50%
+}
+.headlinesday{
+	border-bottom: 1px solid #333;
+}
+.headlinesyear{
+	position: absolute;
+	right: 31px;
+	top: 34px;
+}
+.section-inner.medium {
+    max-width: 111rem !important;
+}
+h1.entry-title {
+    text-align: left;
+	padding-right: 100px;
+}
+.section-inner.medium {
+    max-width: 111rem !important;
+    height: 140px;
+}
+
