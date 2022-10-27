@@ -29,7 +29,8 @@ if (empty($twentytwenty_aria_label) && !empty($args['label'])) {
 	<label for="<?php echo esc_attr($twentytwenty_unique_id); ?>">
 		<span class="screen-reader-text"><?php _e('Search for:', 'twentytwenty'); // phpcs:ignore: WordPress.Security.EscapeOutput.UnsafePrintingFunction -- core trusts translations 
 											?></span>
-		<i class="form-icon fas fa-search h4 text-body"></i>
+
+		<i class="form-icon fa fa-search" aria-hidden="true"></i>
 		<input type="search" id="<?php echo esc_attr($twentytwenty_unique_id); ?>" class="search-field" placeholder=" 
 		<?php echo esc_attr_x('Search topics of keywords', 'placeholder', 'twentytwenty'); ?>" value="<?php echo get_search_query(); ?>" name="s" />
 	</label>
