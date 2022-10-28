@@ -81,80 +81,7 @@ get_header();
 
 	if (have_posts()) {
 
-		if (is_search()) {
-			while (have_posts()) {
-
-				if (have_posts()) {
-					the_post();
-					// lấy bài viết.
-					$_post = get_post();
-
-					// lấy tiêu đề bài viết.
-					$_new_string_title = $_post->post_title;
-
-					// lấy ngày-tháng-năm của bài viết.
-					$_new_post_date = $_post->post_date;
-					$time = strtotime($_new_post_date);
-					$new_format = date('Y-m-d', $time);
-					$_explode = explode("-", $new_format);
-					$_day = $_explode[2];
-					$_month = $_explode[1];
-					$_year = $_explode[0];
-
-					// lấy nội dung chính bài viết.
-					$_new_string_content = substr(
-						$_post->post_content,
-						strpos($_post->post_content, "<!-- wp:paragraph -->"),
-						strpos($_post->post_content, "<!-- /wp:paragraph -->")
-					);
-
-					// lấy ảnh bài viết.
-					// $_new_string_image = substr(
-					// 	$_post->post_content,
-					// 	strpos($_post->post_content, "<!-- wp:image -->"),
-					// 	strpos($_post->post_content, "<!-- /wp:image -->")
-					// );
-					// Get post content:
-					$content = $_post->post_content;
-					preg_match('/src="([^"]*)"/', $content, $matches);
-					preg_match('/(?<!_)src=([\'"])?(.*?)\\1/', $content, $matches);
-					$post_img_element = "";
-					if (count($matches) != 0) {
-						$post_img_element = "<img $matches[0]>";
-					}
-
-					// lấy đường dẫn đến trang chi tiết bài viết.
-					// $_new_string_guid = $_post->guid;
-					$_new_string_guid = get_permalink();
-
-					// hiển thị nội dung chỉnh sửa theo yêu cầu.
-					echo "
-					<div class='list_new_view'>
-						<div class='row vu-class-center'>
-							<div class='col-md-7 top_news_block_desc'>
-								<div class='row'>
-									<div class='col-md-4 col-xs-4'>
-										$post_img_element	
-									</div>
-									<div class='col-md-2 col-xs-2 topnewstime'>
-										<span class='topnewsdate'>$_day</span><br>
-										<span class='topnewsmonth'>Tháng $_month</span><br>
-									</div>
-									<div class='col-md-6 col-xs-6 shortdesc'>
-										<h4>
-											<a href='$_new_string_guid'>$_new_string_title</a>
-										</h4>
-										$_new_string_content <a href='$_new_string_guid'>[...]</a>
-									</div>
-			
-								</div>
-							</div>
-						</div>
-					</div>
-					";
-				}
-			}
-		} else {
+		
 			while (have_posts()) {
 
 				if (have_posts()) {
@@ -216,7 +143,7 @@ get_header();
 					";
 				}
 			}
-		}
+		
 	} elseif (is_search()) {
 	?>
 
