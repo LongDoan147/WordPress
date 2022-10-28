@@ -130,7 +130,7 @@ if (comments_open() || pings_open()) {
 						</div>
 					</div>
 					<div class="text-right">
-						<button type="submit" class="btn btn-primary">share</button>
+						<button type="submit" class="btn-share btn btn-primary">share</button>
 					</div>
 				</div>
 			</section>
