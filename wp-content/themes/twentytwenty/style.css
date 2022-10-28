@@ -6943,11 +6943,10 @@ h1.entry-title {
 	text-align: justify;
 	font-family: 'Open Sans', sans-serif;
 }
-.meta-text{
+.meta-text .meta-1{
 	position: relative;
 	    left: 100rem;
     bottom: 138px;
-
 }
 .meta-text a:hover{
 	text-decoration:none;
@@ -7010,5 +7009,35 @@ h1.entry-title {
 
 .pagination-single .next-post {
     flex-direction: unset;
+}
+
+/* Comment */
+#comments .max-percentage {
+    background: transparent !important;
+}
+#respond #commentform{
+	background: transparent !important;
+}
+
+#respond form .max-percentage{
+	background: transparent;
+}
+.meta-text {
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    font-size: 2rem;
+}
+textarea.form-control {
+    font-size: 2rem;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    width: 70px;
+    height: 40px;
+	font-size: 1.5rem;
 }
 
