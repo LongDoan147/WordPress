@@ -351,7 +351,7 @@ function twentytwenty_get_post_meta($post_id = null, $location = 'single-top')
 			$has_meta = true;
 		?>
 			<span class="meta-text">
-				<a href="<?php the_permalink(); ?>">
+				<a class="meta-1" href="<?php the_permalink(); ?>">
 					<div class="headlinesdate">
 						<div class="headlinesdm">
 							<div class="headlinesday"><?php echo $day ?></div>
