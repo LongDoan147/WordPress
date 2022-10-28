@@ -30,20 +30,17 @@ if ( is_singular() ) {
 		$show_categories = apply_filters( 'twentytwenty_show_categories_in_entry_header', true );
 
 		if ( true === $show_categories && has_category() ) {
-			?>
-
-			<div class="entry-categories">
-				<span class="screen-reader-text"><?php _e( 'Categories', 'twentytwenty' ); ?></span>
-				<div class="entry-categories-inner">
-					<?php the_category( ' ' ); ?>
-				</div><!-- .entry-categories-inner -->
-			</div><!-- .entry-categories -->
-
-			<?php
+			$post_meta = apply_filters(
+				'twentytwenty_post_meta_location_single_bottom',
+				array(
+					'tags',
+				)
+			);
 		}
 
 		if ( is_singular() ) {
-			the_title( '<h1 class="entry-title">', '</h1>' );
+			the_title( '<h1 class="entry-title">', '</h1>' );?>
+			<div class="overviewLine"></div><?php
 		} else {
 			the_title( '<h2 class="entry-title heading-size-1"><a href="' . esc_url( get_permalink() ) . '">', '</a></h2>' );
 		}

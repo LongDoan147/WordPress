@@ -182,18 +182,6 @@
 								</button><!-- .search-toggle -->
 
 							</div>
-
-							<!-- <li class="dropdown">
-								<div class="dropdown-toggle" >
-									<i class="fa fa-user-circle-o"></i>
-									<span class="account">Account </span>
-								</div>
-								<ul class="drop-menu">
-									<li><a href="#">Đăng nhập</a></li>
-									<li><a href="#">Đăng Ký</a></li>
-									<li><a href="#">Thoát</a></li>
-								</ul>
-							</li> -->
 							<div class="dropdown">
 								<i class="drop-icon fa fa-user-circle-o"></i>
 								<button class="btn-account btn dropdown-toggle" type="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
