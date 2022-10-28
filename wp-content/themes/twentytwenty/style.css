@@ -6959,8 +6959,8 @@ h1.entry-title {
 	display: flex;
 	font-size: 2rem;
 	background: #f5ce31;
-padding: 20px 30px;
-      max-width: 111px;
+	padding: 20px 30px;
+    max-width: 111px;
 	border-radius: 50%
 }
 .headlinesday{
@@ -6981,5 +6981,34 @@ h1.entry-title {
 .section-inner.medium {
     max-width: 111rem !important;
     height: 140px;
+}
+
+/* Next Previeus */
+.pagination-single-inner{
+	display: block;
+}
+.pagination-single-inner .pre-post{
+	display: flex;
+}
+.pagination-single-inner .pre-post .headlinesdate{
+	background: transparent !important;
+	position: relative;
+	bottom: 30px;
+		left:12px;
+}
+
+.pagination-single-inner .headlinesyear{
+	position: absolute;
+	right: 6px
+}
+
+.pagination-single-inner .title{
+	margin-left: 60px;
+	color: #000;
+	font-weight: 400;
+}
+
+.pagination-single .next-post {
+    flex-direction: unset;
 }
 
